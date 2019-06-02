@@ -1,4 +1,9 @@
-<div *ngFor="let catalyst of catalysts">
-  <p>{{ catalyst | titlecase }}</p>
+<div *ngFor="let hero of heroes">
+  <div>
+    {{ hero.name | titlecase }}
+    <span *ngFor="let catalyst of hero.catalysts">
+      {{ catalyst.id }}
+    </span>
+  </div>
 </div>
 

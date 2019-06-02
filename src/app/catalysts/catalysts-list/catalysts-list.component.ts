@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./catalysts-list.component.scss']
 })
 export class CatalystsListComponent implements OnInit {
-  @Input() catalysts:string[];
+  @Input() heroes:string[];
 
   constructor() { }
 

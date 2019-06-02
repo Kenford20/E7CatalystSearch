@@ -2,10 +2,12 @@ export interface ISkill {
     Skills: number[]
 }
 
-export interface ICatalyst {
-    [catalyst: string]: ISkill
+export interface ICatalysts {
+    id: string,
+    skills: number[]
 }
 
 export interface IHeroes { 
-    [hero: string]: ICatalyst
+    name: string,
+    catalysts: ICatalysts[]
 }

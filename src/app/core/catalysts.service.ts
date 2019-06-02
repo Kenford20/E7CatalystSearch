@@ -14,7 +14,7 @@ export class CatalystsService {
     constructor(private http: HttpClient) { }
 
     getHeroes() : Observable<any> {
-        return this.http.get(this.baseUrl + 'heroes-catalysts.json')
+        return this.http.get<any>(this.baseUrl + 'heroes-to-catalysts.json')
             .pipe(
                 catchError(this.handleError)
             );
