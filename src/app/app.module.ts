@@ -1,3 +1,4 @@
+import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -12,7 +13,8 @@ import { ArtifactsModule } from './artifacts/artifacts.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ArtifactsModule
+    ArtifactsModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

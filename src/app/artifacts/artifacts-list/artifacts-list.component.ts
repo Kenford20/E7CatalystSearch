@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-artifacts-list',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./artifacts-list.component.scss']
 })
 export class ArtifactsListComponent implements OnInit {
+  @Input() artifacts:string[];
 
   constructor() { }
 
