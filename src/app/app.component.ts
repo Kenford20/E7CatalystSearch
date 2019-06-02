@@ -1,5 +1,3 @@
-import { IHeroes } from './shared/interfaces';
-import { ArtifactsService } from './core/artifacts.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

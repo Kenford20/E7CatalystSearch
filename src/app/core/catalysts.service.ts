@@ -4,17 +4,17 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
-import { IHeroes } from '../../app/shared/interfaces';
+import { IHeroes } from '../shared/interfaces';
 
 @Injectable()
-export class ArtifactsService {
+export class CatalystsService {
 
     baseUrl: string = 'assets/';
     
     constructor(private http: HttpClient) { }
 
     getHeroes() : Observable<any> {
-        return this.http.get(this.baseUrl + 'heroes-artifacts.json')
+        return this.http.get(this.baseUrl + 'heroes-catalysts.json')
             .pipe(
                 catchError(this.handleError)
             );

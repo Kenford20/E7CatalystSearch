@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArtifactsComponent } from './artifacts.component';
+import { CatalystsListComponent } from './catalysts-list.component';
 
-describe('ArtifactsComponent', () => {
-  let component: ArtifactsComponent;
-  let fixture: ComponentFixture<ArtifactsComponent>;
+describe('CatalystsListComponent', () => {
+  let component: CatalystsListComponent;
+  let fixture: ComponentFixture<CatalystsListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ArtifactsComponent ]
+      declarations: [ CatalystsListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArtifactsComponent);
+    fixture = TestBed.createComponent(CatalystsListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

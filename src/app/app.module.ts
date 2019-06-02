@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ArtifactsModule } from './artifacts/artifacts.module';
+import { CatalystsModule } from './catalysts/catalysts.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { ArtifactsModule } from './artifacts/artifacts.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ArtifactsModule,
+    CatalystsModule,
     CoreModule
   ],
   providers: [],
