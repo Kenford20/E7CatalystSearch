@@ -29,10 +29,10 @@ export class CatalystsComponent implements OnInit {
         for(let catalyst in heroesData[hero]) {
           let catalystData:ICatalysts = {
             id: catalyst,
-            skills: []
+            purposes: {}
           }
-          for(let skills in heroesData[hero][catalyst]) {
-            catalystData.skills.push(heroesData[hero][catalyst][skills]);
+          for(let purpose in heroesData[hero][catalyst]) {
+            catalystData.purposes[purpose] = heroesData[hero][catalyst][purpose];
           }
           heroData.catalysts.push(catalystData);
         }
@@ -52,7 +52,7 @@ export class CatalystsComponent implements OnInit {
   }
 
   filter(input) {
-    this.filteredHeroes = this.heroes.map(hero => {
+    this.filteredHeroes = this.heroes.filter(hero => {
       return hero.name.toLowerCase().indexOf(input.toLowerCase()) >= 0 ? hero : '';
     }).sort();
   }

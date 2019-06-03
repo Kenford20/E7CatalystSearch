@@ -6,10 +6,16 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
         <input 
             id="catalysts-search" 
             type="text" 
-            placeholder="Enter Catalyst"
+            placeholder="Enter Hero Name"
             [(ngModel)]="filter"
         />
-    `
+    `,
+    styles: [`
+        input {
+            padding: 5px 10px;
+            margin: 15px 0;
+        }
+    `]
 })
 
 export class FilterCatalystsComponent implements OnInit {
