@@ -7,20 +7,15 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CatalystsListComponent implements OnInit {
   @Input() heroes:string[];
+  @Input() hideHeroData:boolean[];
 
   constructor() { 
-    
   }
 
   ngOnInit() {
   }
 
-  toggleHeroData(e) {
-    console.log(e)
-    if(e.target.parentElement.nextElementSibling.classList.contains('hide')) {
-      e.target.parentElement.nextElementSibling.classList.remove('hide');
-    } else {
-      e.target.parentElement.nextElementSibling.classList.add('hide');
-    }
+  toggleHeroData(heroIndex) {
+    this.hideHeroData[heroIndex] = !this.hideHeroData[heroIndex];
   }
 }

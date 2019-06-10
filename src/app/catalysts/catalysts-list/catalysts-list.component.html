@@ -1,8 +1,8 @@
-<div id="catalysts-list-wrapper" *ngFor="let hero of heroes">
-	<div class="hero-name-wrapper" (click)="toggleHeroData($event)">
+<div id="catalysts-list-wrapper" *ngFor="let hero of heroes; let i = index">
+	<div class="hero-name-wrapper" (click)="hideHeroData[i] = !hideHeroData[i]">
 		<h2>{{ hero.name }}</h2>
 	</div>
-    <div class="hero-data-wrapper hide">
+    <div class="hero-data-wrapper" [ngClass]="{'hide': hideHeroData[i]}">
         <div class="catalyst-names-wrapper">
 			<h5>Catalysts</h5>
             <p *ngFor="let catalyst of hero.catalysts">{{ catalyst.id | spaceSeparate | titlecase }}</p> 
@@ -23,6 +23,11 @@
 		</div>
 		<div class="catalyst-locations-wrapper">
 			<h5>Locations</h5>
+			<p *ngFor="let catalyst of hero.catalysts; let j = index">
+				<ng-container *ngFor="let location of hero.catalysts[j].locations">
+					<span [ngClass]="{'world-stage': location.isWorldStage}">{{ location.stage }}</span>
+				</ng-container>
+			</p>
 		</div>
     </div>
 </div>
