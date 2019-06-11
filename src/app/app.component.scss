@@ -1,5 +1,14 @@
 #app-component-wrapper {
     padding: 50px;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
+}
+
+@media only screen and (max-width: 750px) {
+    #app-component-wrapper {
+        padding: 0px;
+        min-width: 420px;
+        width: 100%;
+    }
 }
