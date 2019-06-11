@@ -1,10 +1,10 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-    selector: 'filter-catalysts',
+    selector: 'filter-heroes',
     template: `
         <input 
-            id="catalysts-search" 
+            id="heroes-search" 
             type="text" 
             placeholder="Enter Hero Name"
             [(ngModel)]="filter"
@@ -18,7 +18,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
     `]
 })
 
-export class FilterCatalystsComponent implements OnInit {
+export class FilterHeroesComponent implements OnInit {
     private _filter: string;
 
     @Input()

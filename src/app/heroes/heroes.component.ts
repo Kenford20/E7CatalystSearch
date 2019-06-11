@@ -3,12 +3,12 @@ import { Component, OnInit } from '@angular/core';
 import { IHeroes, ICatalysts, ILocations, ILocation } from '../shared/interfaces';
 
 @Component({
-  selector: 'app-catalysts',
-  templateUrl: './catalysts.component.html',
-  styleUrls: ['./catalysts.component.scss']
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.scss']
 })
 
-export class CatalystsComponent implements OnInit {
+export class HeroesComponent implements OnInit {
   heroes:any[] = [];
   filteredHeroes:any[] = [];
   hideHeroData:boolean[] = [];

@@ -1,13 +1,14 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-catalysts-list',
-  templateUrl: './catalysts-list.component.html',
-  styleUrls: ['./catalysts-list.component.scss']
+  selector: 'app-hero',
+  templateUrl: './hero.component.html',
+  styleUrls: ['./hero.component.scss']
 })
-export class CatalystsListComponent implements OnInit {
-  @Input() heroes:string[];
+export class HeroComponent implements OnInit {
+  @Input() catalysts:string[];
   @Input() hideHeroData:boolean[];
+  @Input() index:number;
 
   constructor() { 
   }

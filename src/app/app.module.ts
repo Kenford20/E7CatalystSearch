@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CatalystsModule } from './catalysts/catalysts.module';
+import { HeroesModule } from './heroes/heroes.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -16,7 +16,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     CommonModule,
     AppRoutingModule,
-    CatalystsModule,
+    HeroesModule,
     CoreModule,
     SharedModule
   ],
