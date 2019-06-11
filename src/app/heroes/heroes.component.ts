@@ -39,7 +39,7 @@ export class HeroesComponent implements OnInit {
           name: hero,
           catalysts: []
         }
-        this.hideHeroData.push(false);
+        this.hideHeroData.push(true);
 
         for(let catalyst in heroesData[hero]) {
           let catalystData:ICatalysts = {

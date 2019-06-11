@@ -14,6 +14,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
         input {
             padding: 5px 10px;
             margin: 15px 0;
+            width: 240px;
         }
     `]
 })

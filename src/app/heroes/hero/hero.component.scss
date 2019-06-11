@@ -1,7 +1,14 @@
 .hero-data-wrapper {
     display: grid;
     grid-template-areas: "catalysts skills awakenings locations";
-    grid-template-columns: 175px 100px 100px 1fr;  
+    grid-template-columns: 175px 100px 100px 1fr; 
+    overflow: hidden;
+    max-height: 400px;
+    -webkit-transition: max-height 0.5s; 
+    -moz-transition: max-height 0.5s; 
+    -ms-transition: max-height 0.5s; 
+    -o-transition: max-height 0.5s; 
+    transition: max-height 0.5s;  
 
     @media only screen and (max-width: 750px) {
         grid-template-columns: 155px 55px 90px 1fr;  
@@ -47,5 +54,7 @@
 }
 
 .hide {
-    display: none !important;
+    // display: none !important;
+    height: auto;
+    max-height: 0px;
 }

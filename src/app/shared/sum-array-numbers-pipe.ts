@@ -1,7 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 /*
-    replaces any characters that separate words with spaces
-    ie: foo-bar-foobar = foo bar foobar
+    receives an array and just returns the sum of that array as an integer
 */
 
 @Pipe({name: 'sumNumbers'})

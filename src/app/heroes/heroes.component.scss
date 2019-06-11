@@ -1,10 +1,12 @@
 .hero-wrapper {
-    margin: 20px 0;
-    // min-width: 520px;
+    position: relative;
 
     .hero-name-wrapper {
         position: relative;
         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
 
         &:hover::after {
             width: 100%;
@@ -29,22 +31,39 @@
             transition: width 0.3s;
         }
 
+        .flip {
+            &::before {
+                transform: rotate(135deg);
+            }
+            &::after {
+                transform: rotate(225deg);
+            }
+        }
+
         h2 {
             padding: 5px;
-            margin-bottom: 10px;
             text-align: center;
+            display: inline-block;
             position: relative;
-        }
-    }
 
-    .hero-data-wrapper {
-        display: grid;
-        grid-template-areas: "catalysts skills awakenings locations";
-        grid-template-columns: 175px 100px 100px 1fr;  
-    
-        h5 {
-            //margin-bottom: 5px;
-            border-bottom: 1px solid black;
+            &::before, &::after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                height: 3px;
+                width: 12px;
+                background: black;
+                top: 19px;
+                transition: all 0.2s;
+            }
+            &::before {
+                transform: rotate(225deg);
+                right: -25px;
+            }
+            &::after {
+                transform: rotate(135deg);
+                right: -32px;
+            }
         }
     }
 }
