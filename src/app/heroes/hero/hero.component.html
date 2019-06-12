@@ -6,14 +6,14 @@
 	<div class="skills-wrapper">
 		<h5>Skills</h5>
 		<ng-container *ngFor="let catalyst of catalysts">
-			<p *ngIf="catalyst.purposes.Skills; else addZero">{{ catalyst.purposes.Skills | sumNumbers }}</p>
+			<p *ngIf="catalyst.skills; else addZero">{{ catalyst.skills | sumNumbers }}</p>
 			<ng-template #addZero><p>0</p></ng-template>
 		</ng-container>
 	</div>
 	<div class="awakenings-wrapper">
 		<h5>Awakening</h5>
 		<ng-container *ngFor="let catalyst of catalysts">
-			<p *ngIf="catalyst.purposes.Awakening; else addZero"> {{ catalyst.purposes.Awakening | sumNumbers }}</p>
+			<p *ngIf="catalyst.awakening; else addZero"> {{ catalyst.awakening | sumNumbers }}</p>
 			<ng-template #addZero><p>0</p></ng-template>
 		</ng-container>
 	</div>

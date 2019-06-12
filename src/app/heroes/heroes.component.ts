@@ -25,60 +25,46 @@ export class HeroesComponent implements OnInit {
   ngOnInit() {
     this.catalystsService.getCatalysts().subscribe(catalysts => {
       for(let catalyst in catalysts) {
-        const catalystLocation = {
+        this.catalystsLocations.push({
           catalystID: catalyst,
           locations: catalysts[catalyst].locations
-        }
-        this.catalystsLocations.push(catalystLocation);
+        });
       }
     })
 
     this.catalystsService.getHeroes().subscribe(heroesData => {
-      for(let hero in heroesData) {
-        let heroData:IHeroes = {
-          name: hero,
-          catalysts: []
-        }
+      Object.keys(heroesData).map(hero => {
         this.hideHeroData.push(true);
+        let catalysts = [];
 
-        for(let catalyst in heroesData[hero]) {
-          let catalystData:ICatalysts = {
+        Object.keys(heroesData[hero]).map(catalyst => {
+          const catalystData = {
             id: catalyst,
             locations: [],
-            purposes: {}
+            awakening: heroesData[hero][catalyst]['Awakening'],
+            skills: heroesData[hero][catalyst]['Skills']
           }
+
           const matchingCatalyst = this.catalystsLocations.find(catalystLocation => catalystLocation.catalystID === catalyst);
-
           if(matchingCatalyst) {
-            let locationData = [...matchingCatalyst.locations];
-
-            locationData = locationData.map(location => {
-              if(/World/.test(location.stage)) {
-                return {
-                  ...location,
-                  isWorldStage: true
-                }
-              } else {
-                return {
-                  ...location,
-                  isWorldStage: false
-                }
+            const locationData = matchingCatalyst.locations.map(location => {
+              return {
+                ...location,
+                isWorldStage: /World/.test(location.stage) ? true : false
               }
-            })
-
+            });
             catalystData.locations = locationData;
           }
+          catalysts.push(catalystData);
+        });
 
-          for(let purpose in heroesData[hero][catalyst]) {
-            catalystData.purposes[purpose] = heroesData[hero][catalyst][purpose];
-          }
-          heroData.catalysts.push(catalystData);
-        }
-        this.heroes.push(heroData);
-      }
-      this.filteredHeroes = this.heroes.sort();
-      //console.log(this.catalystsLocations);
+        this.heroes.push({
+          name: hero, 
+          catalysts: catalysts
+        });
+      });
       console.log(this.heroes)
+      this.filteredHeroes = [...this.heroes];
     });
   }
 
