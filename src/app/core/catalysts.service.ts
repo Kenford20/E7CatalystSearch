@@ -21,6 +21,13 @@ export class CatalystsService {
     }
 
     getCatalysts() : Observable<any> {
+        return this.http.get<any>(this.baseUrl + 'catalysts-to-heroes.json')
+            .pipe(
+                catchError(this.handleError)
+            );
+    }
+
+    getCatalystLocations() : Observable<any> {
         return this.http.get<any>(this.baseUrl + 'catalysts-locations.json')
             .pipe(
                 catchError(this.handleError)

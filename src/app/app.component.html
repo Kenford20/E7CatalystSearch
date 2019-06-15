@@ -2,7 +2,14 @@
 <div id="app-component-wrapper">
   <h1>
     Welcome to {{ title }}!
-    <app-heroes></app-heroes>
+    <h1 *ngIf="heroView">Heroes to Catalysts</h1>
+    <h1 *ngIf="catalystView">Catalysts to Heroes</h1>
+    <select (change)="changeHeroView($event)">
+        <option value="heroes">Heroes</option>
+        <option value="catalysts">Catalysts</option>
+    </select>
+    <app-heroes *ngIf="heroView"></app-heroes>
+    <app-catalysts *ngIf="catalystView"></app-catalysts>
   </h1>
 </div>
 

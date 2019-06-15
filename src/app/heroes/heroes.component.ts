@@ -1,6 +1,6 @@
 import { CatalystsService } from '../core/catalysts.service';
 import { Component, OnInit } from '@angular/core';
-import { IHeroes, ICatalysts, ILocations, ILocation } from '../shared/interfaces';
+import { IHeroes, ICatalyst, ILocations, ILocation } from '../shared/interfaces';
 
 @Component({
   selector: 'app-heroes',
@@ -23,7 +23,7 @@ export class HeroesComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.catalystsService.getCatalysts().subscribe(catalysts => {
+    this.catalystsService.getCatalystLocations().subscribe(catalysts => {
       for(let catalyst in catalysts) {
         this.catalystsLocations.push({
           catalystID: catalyst,
@@ -38,7 +38,7 @@ export class HeroesComponent implements OnInit {
         let catalysts = [];
 
         Object.keys(heroesData[hero]).map(catalyst => {
-          const catalystData = {
+          const catalystData:ICatalyst = {
             id: catalyst,
             locations: [],
             awakening: heroesData[hero][catalyst]['Awakening'],
@@ -65,6 +65,7 @@ export class HeroesComponent implements OnInit {
       });
       console.log(this.heroes)
       this.filteredHeroes = [...this.heroes];
+      console.log(this.filteredHeroes)
     });
   }
 
@@ -74,12 +75,3 @@ export class HeroesComponent implements OnInit {
     }).sort();
   }
 }
-
-
-
-        // for(let catalyst in heroes[hero]) {
-        //   if(!this.catalystIDs.includes(catalyst)) {
-        //     this.catalystIDs.push(catalyst)
-        //     this.catalysts.push(catalyst.replace(/-/g, ' '));
-        //   }
-        // }

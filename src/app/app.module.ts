@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { SharedModule } from './shared/shared.module';
+import { CatalystsModule } from './catalysts/catalysts.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     HeroesModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    CatalystsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

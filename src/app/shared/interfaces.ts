@@ -1,8 +1,3 @@
-export interface IPurposes {
-    Skills?: number[],
-    Awakening?: number[]
-}
-
 export interface ILocation {
     stage: string,
     mobs: number
@@ -13,13 +8,28 @@ export interface ILocations {
     locations: ILocation[]
 }
 
-export interface ICatalysts {
+// Heroes to Catalysts
+export interface ICatalyst {
     id: string,
     locations: ILocation[]
-    purposes: IPurposes
+    awakening: number[],
+    skills: number[]
 }
 
 export interface IHeroes { 
     name: string,
-    catalysts: ICatalysts[]
+    catalysts: ICatalyst[]
+}
+
+// Catalysts to Heroes
+export interface IHero {
+    name: string,
+    skills: number[],
+    awakening: number[]
+}
+
+export interface ICatalysts {
+    id: string,
+    heroes: IHero[],
+    locations: ILocation[]
 }
