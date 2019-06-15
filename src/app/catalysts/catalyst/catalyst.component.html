@@ -1,0 +1,28 @@
+<div class="catalyst-data-wrapper" [ngClass]="{'hide': hideCatalystData[index]}">
+  <div class="catalyst-locations-wrapper">
+    <h5>Catalyst Locations</h5>
+    <p>
+      <ng-container *ngFor="let location of locations">
+        <span [ngClass]="{'world-stage': location.isWorldStage}">{{ location.stage }}</span>
+      </ng-container>
+    </p>
+  </div>
+  <div class="hero-names-wrapper">
+    <h5>Heroes</h5>
+    <p *ngFor="let hero of heroes">{{ hero.name | spaceSeparate | titlecase }}</p> 
+  </div> 
+  <div class="skills-wrapper">
+    <h5>Skills</h5>
+    <ng-container *ngFor="let hero of heroes">
+      <p *ngIf="hero.skills; else addZero">{{ hero.skills | sumNumbers }}</p>
+      <ng-template #addZero><p>0</p></ng-template>
+    </ng-container>
+  </div>
+  <div class="awakenings-wrapper">
+    <h5>Awakening</h5>
+    <ng-container *ngFor="let hero of heroes">
+      <p *ngIf="hero.awakening; else addZero"> {{ hero.awakening | sumNumbers }}</p>
+      <ng-template #addZero><p>0</p></ng-template>
+    </ng-container>
+  </div>
+</div>

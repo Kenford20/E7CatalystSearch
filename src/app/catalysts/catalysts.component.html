@@ -1,0 +1,16 @@
+<div id="catalysts-component-wrapper">
+  <filter-catalysts (changed)="filter($event)"></filter-catalysts>
+  <div class="catalyst-locations-wrapper">
+  <div class="catalyst-wrapper" *ngFor="let catalyst of filteredCatalysts; let i = index">
+      <div class="catalyst-name-wrapper" (click)="hideCatalystData[i] = !hideCatalystData[i]">
+          <h2 [ngClass]="{'flip': !hideCatalystData[i]}">{{ catalyst.id | spaceSeparate | titlecase }}</h2>
+      </div>
+
+      <app-catalyst 
+        [heroes]="catalyst.heroes" 
+        [locations]="catalyst.locations" 
+        [hideCatalystData]="hideCatalystData" 
+        [index]="i"
+      ></app-catalyst>
+  </div>
+</div>

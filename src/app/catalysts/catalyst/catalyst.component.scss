@@ -1,0 +1,59 @@
+.catalyst-data-wrapper {
+    display: grid;
+    grid-template-areas: "catalysts skills awakenings locations";
+    grid-template-columns: 175px 100px 100px 1fr; 
+    overflow: hidden;
+    max-height: 400px;
+    -webkit-transition: max-height 0.5s; 
+    -moz-transition: max-height 0.5s; 
+    -ms-transition: max-height 0.5s; 
+    -o-transition: max-height 0.5s; 
+    transition: max-height 0.5s;  
+
+    @media only screen and (max-width: 750px) {
+        grid-template-columns: 155px 55px 90px 1fr;  
+    }
+
+    h5 {
+        //margin-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
+
+    .hero-names-wrapper > p,
+    .skills-wrapper > p,
+    .awakenings-wrapper > p,
+    .catalyst-locations-wrapper > p {
+        margin: 10px 0;
+    }
+
+    .hero-names-wrapper {
+        grid-area: catalysts;
+    }
+
+    .skills-wrapper {
+        grid-area: skills;
+    }
+
+    .awakenings-wrapper {
+        grid-area: awakenings;
+    }
+
+    .catalyst-locations-wrapper {
+        grid-area: locations;
+
+        .world-stage {
+            color: red,
+        }
+
+        span {
+            display: inline-block;
+            margin-right: 15px;
+            overflow: auto;
+        }
+    }
+}
+
+.hide {
+    height: auto;
+    max-height: 0px;
+}
