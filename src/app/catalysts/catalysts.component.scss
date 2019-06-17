@@ -41,7 +41,15 @@
         }
 
         .align-headers {
-            width: 320px;
+            width: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .catalyst-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
         }
 
         h2 {

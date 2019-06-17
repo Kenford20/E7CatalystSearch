@@ -5961,36 +5961,6 @@
             ]
         }
     },
-    "mercendarys-medicine": {
-        "Chloe": {
-            "Skills": [
-                2,
-                2,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "Tamarinne": {
-            "Skills": [
-                3,
-                3,
-                8,
-                3,
-                3,
-                0,
-                0,
-                0,
-                0,
-                0
-            ]
-        }
-    },
     "flame-of-soul": {
         "Dingo": {
             "Skills": [
