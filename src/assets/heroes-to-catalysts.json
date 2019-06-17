@@ -5553,6 +5553,34 @@
             ]
         }
     },
+    "Sol": {
+        "cold-look": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0
+            ]
+        },
+        "mercenarys-medicine": [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
     "Specimen Sez": {
         "sharp-spearhead": {
             "Skills": [
