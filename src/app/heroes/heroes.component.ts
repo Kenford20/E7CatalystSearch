@@ -12,17 +12,28 @@ export class HeroesComponent implements OnInit {
   heroes:any[] = [];
   filteredHeroes:any[] = [];
   hideHeroData:boolean[] = [];
-
-  catalysts:string[] = [];
   catalystsLocations:ILocations[] = []
-  filteredCatalysts:any[] = [];
-  catalystIDs:string[] = [];
 
   constructor(private catalystsService: CatalystsService) {
-    
   }
 
   ngOnInit() {
+    let foo = [
+      {
+        bar: 'foo-bar',
+        id: 100
+      },
+      {
+        bar: 'bar-foo',
+        id: 1
+      },
+      {
+        bar: 'ar-poo',
+        id: 10
+      }
+    ]
+    foo.sort((a,b) => (a.bar > b.bar) ? 1 : ((b.bar > a.bar) ? -1 : 0)); 
+    console.log(foo);
     this.catalystsService.getCatalystLocations().subscribe(catalysts => {
       for(let catalyst in catalysts) {
         this.catalystsLocations.push({

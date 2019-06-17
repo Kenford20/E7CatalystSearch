@@ -40,11 +40,16 @@
             }
         }
 
+        .align-headers {
+            width: 320px;
+        }
+
         h2 {
             padding: 5px;
             text-align: center;
             display: inline-block;
             position: relative;
+            font-size: 21px;
 
             &::before, &::after {
                 content: '';
@@ -53,7 +58,7 @@
                 height: 3px;
                 width: 12px;
                 background: black;
-                top: 19px;
+                top: 17px;
                 transition: all 0.2s;
             }
             &::before {

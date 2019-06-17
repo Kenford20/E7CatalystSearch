@@ -3,7 +3,9 @@
   <div class="catalyst-locations-wrapper">
   <div class="catalyst-wrapper" *ngFor="let catalyst of filteredCatalysts; let i = index">
       <div class="catalyst-name-wrapper" (click)="hideCatalystData[i] = !hideCatalystData[i]">
+        <div class="align-headers">
           <h2 [ngClass]="{'flip': !hideCatalystData[i]}">{{ catalyst.id | spaceSeparate | titlecase }}</h2>
+        </div>
       </div>
 
       <app-catalyst 

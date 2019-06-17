@@ -2,7 +2,9 @@
     <filter-heroes (changed)="filter($event)"></filter-heroes>
     <div class="hero-wrapper" *ngFor="let hero of filteredHeroes; let i = index">
         <div class="hero-name-wrapper" (click)="hideHeroData[i] = !hideHeroData[i]">
-            <h2 [ngClass]="{'flip': !hideHeroData[i]}">{{ hero.name }}</h2>
+            <div class="align-headers">
+                <h2 [ngClass]="{'flip': !hideHeroData[i]}">{{ hero.name }}</h2>
+            </div>
         </div>
 
         <app-hero [catalysts]="hero.catalysts" [hideHeroData]="hideHeroData" [index]="i"></app-hero>

@@ -64,14 +64,13 @@ export class CatalystsComponent implements OnInit {
         });
       });
       console.log(this.catalysts);
-      this.filteredCatalysts = [...this.catalysts];
-      console.log(this.filteredCatalysts);
+      this.filteredCatalysts = [...this.catalysts].sort((a,b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0));
     });
   }
 
   filter(input) {
     this.filteredCatalysts = this.catalysts.filter(catalyst => {
       return catalyst.id.toLowerCase().indexOf(input.toLowerCase()) >= 0 ? catalyst : '';
-    }).sort();
+    }).sort((a,b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0));
   }
 }
