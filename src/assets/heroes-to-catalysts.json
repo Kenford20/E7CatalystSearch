@@ -1506,20 +1506,6 @@
                 0
             ]
         },
-        "mercendarys-medicine": {
-            "Skills": [
-                2,
-                2,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ]
-        },
         "cold-look": {
             "Awakening": [
                 0,
@@ -1535,6 +1521,18 @@
             ]
         },
         "mercenarys-medicine": {
+            "Skills": [
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "Awakening": [
                 0,
                 0,
@@ -5808,7 +5806,7 @@
                 0
             ]
         },
-        "mercendarys-medicine": {
+        "mercenarys-medicine": {
             "Skills": [
                 3,
                 3,
@@ -5816,6 +5814,18 @@
                 3,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
                 0,
                 0,
                 0,
@@ -5830,20 +5840,6 @@
                 0,
                 15,
                 0,
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "mercenarys-medicine": {
-            "Awakening": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                10,
                 0,
                 0,
                 0,

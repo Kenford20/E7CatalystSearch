@@ -1,29 +1,25 @@
 <div class="hero-data-wrapper" [ngClass]="{'hide': hideHeroData[index]}">
-	<div class="catalyst-names-wrapper">
-		<h5>Catalysts</h5>
-		<p *ngFor="let catalyst of catalysts">
+	<h5 class="catalyst-header">Catalysts</h5>
+	<div class="catalyst-names-wrapper{{i}}" *ngFor="let catalyst of catalysts; let i = index">
+		<p>
 			<img class="catalyst-icon-small" src="../../../assets/images/catalyst-icons/{{catalyst.id}}.PNG" alt="catalyst.id + 'icon'"/>
 			{{ catalyst.id | spaceSeparate | titlecase }}
 		</p> 
 	</div>
-	<div class="skills-wrapper">
-		<h5>Skills</h5>
-		<ng-container *ngFor="let catalyst of catalysts">
-			<p *ngIf="catalyst.skills; else addZero">{{ catalyst.skills | sumNumbers }}</p>
-			<ng-template #addZero><p>0</p></ng-template>
-		</ng-container>
+	<h5 class="skills-header">Skills</h5>
+	<div class="skills-wrapper{{i}}" *ngFor="let catalyst of catalysts; let i = index">
+		<p *ngIf="catalyst.skills; else addZero">{{ catalyst.skills | sumNumbers }}</p>
+		<ng-template #addZero><p>0</p></ng-template>
 	</div>
-	<div class="awakenings-wrapper">
-		<h5>Awakening</h5>
-		<ng-container *ngFor="let catalyst of catalysts">
-			<p *ngIf="catalyst.awakening; else addZero"> {{ catalyst.awakening | sumNumbers }}</p>
-			<ng-template #addZero><p>0</p></ng-template>
-		</ng-container>
+	<h5 class="awakenings-header">Awakening</h5>
+	<div class="awakenings-wrapper{{i}}" *ngFor="let catalyst of catalysts; let i = index">
+		<p *ngIf="catalyst.awakening; else addZero"> {{ catalyst.awakening | sumNumbers }}</p>
+		<ng-template #addZero><p>0</p></ng-template>
 	</div>
-	<div class="catalyst-locations-wrapper">
-		<h5>Locations</h5>
-		<p *ngFor="let catalyst of catalysts; let j = index">
-			<ng-container *ngFor="let location of catalysts[j].locations">
+	<h5 class="locations-header">Locations</h5>
+	<div class="catalyst-locations-wrapper{{i}}" *ngFor="let catalyst of catalysts; let i = index">
+		<p>
+			<ng-container *ngFor="let location of catalysts[i].locations">
 				<span [ngClass]="{'world-stage': location.isWorldStage}">{{ location.stage }}</span>
 			</ng-container>
 		</p>
