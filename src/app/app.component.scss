@@ -15,7 +15,7 @@ select {
 @media only screen and (max-width: 750px) {
     #app-component-wrapper {
         padding: 0px;
-        min-width: 420px;
-        width: 100%;
+        min-width: 400px;
+        max-width: 410px;
     }
 }

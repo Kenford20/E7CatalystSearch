@@ -1,86 +1,203 @@
 {
     "ancient-creature-nucleus": {
       "name": "Ancient Creature Nucleus",
-      "locations": [{ "stage": "World 7-S6", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 7-S4", "mobs": 0 },
+        { "stage": "World 7-S6", "mobs": 0 },
+        { "stage": "World 3S-Crack", "mobs": 0 },
+        { "stage": "World 5S-Crack", "mobs": 0 }
+      ]
     },
     "archers-vision": {
       "name": "Archers Vision",
       "locations": [
-        { "stage": "World 7-7", "mobs": 6 },
-        { "stage": "World 7-10", "mobs": 6 },
-        { "stage": "Normal 4-9", "mobs": 5 }
+        { "stage": "Normal 1-S3", "mobs": 5 },
+        { "stage": "Normal 3S-3", "mobs": 5 },
+        { "stage": "Normal 4-1-S6", "mobs": 5 },
+        { "stage": "Normal 4-2-9", "mobs": 5, "bestFarm": true },
+        { "stage": "Normal 6-S3", "mobs": 5 },
+        { "stage": "Normal 7-7", "mobs": 5 },
+        { "stage": "Normal 7-8", "mobs": 5 },
+        { "stage": "Normal 7-9", "mobs": 5 },
+        { "stage": "Normal 7-10", "mobs": 5 },
+        { "stage": "Normal 10-7", "mobs": 5 }
       ]
     },
     "baby-mouse-insignia": {
       "name": "Baby Mouse Insignia",
       "locations": [
-        { "stage": "World 3-8", "mobs": 11 },
-        { "stage": "World 4-S7", "mobs": 11 },
-        { "stage": "World 5S-S1", "mobs": 11 },
-        { "stage": "Normal 4-4", "mobs": 10 },
-        { "stage": "World 7-S4", "mobs": 8 },
-        { "stage": "World 7-S5", "mobs": 8 }
+        { "stage": "Normal 3-S1", "mobs": 11 },
+        { "stage": "Normal 3S-2", "mobs": 11 },
+        { "stage": "Normal 3S-3", "mobs": 11 },
+        { "stage": "Normal 3S-4", "mobs": 11 },
+        { "stage": "Normal 3-2", "mobs": 11 },
+        { "stage": "Normal 3-3", "mobs": 11 },
+        { "stage": "Normal 3-8", "mobs": 11 },
+        { "stage": "Normal 4-1-3", "mobs": 10 },
+        { "stage": "Normal 4-1-4", "mobs": 10, "bestFarm": true},
+        { "stage": "Normal 4-2-S7", "mobs": 10 },
+        { "stage": "Normal 5S-2", "mobs": 10 },
+        { "stage": "Normal 5S-5", "mobs": 10 },
+        { "stage": "Normal 5S-S1", "mobs": 10 },
+        { "stage": "Normal 7-S4", "mobs": 8 },
+        { "stage": "Normal 7-S5", "mobs": 8 }
       ]
     },
     "black-curse-powder": {
       "name": "Black Curse Powder",
-      "locations": [{ "stage": "World 10-S2", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 8-10", "mobs": 0 },
+        { "stage": "World 9-2-S4", "mobs": 0 },
+        { "stage": "World 10-S2", "mobs": 0 }
+      ]
     },
     "blazing-rage": {
       "name": "Blazing Rage",
       "locations": [
-        { "stage": "World 5-5", "mobs": 11 },
-        { "stage": "World 5S-3", "mobs": 11 },
-        { "stage": "World 10-6", "mobs": 11 },
-        { "stage": "Normal 5-5", "mobs": 10 },
-        { "stage": "Normal 5-6", "mobs": 10 },
-        { "stage": "World 3-S3", "mobs": 7 },
-        { "stage": "World 4-S5", "mobs": 7 }
+        { "stage": "Normal 1-S2", "mobs": 11 },
+        { "stage": "Normal 1-S4", "mobs": 11 },
+        { "stage": "Normal 1-S5", "mobs": 11 },
+        { "stage": "Normal 2S-S5", "mobs": 10 },
+        { "stage": "Normal 3S-2", "mobs": 7 },
+        { "stage": "Normal 3-S3", "mobs": 10 },
+        { "stage": "Normal 3-6", "mobs": 7 },
+        { "stage": "Normal 4-1-2", "mobs": 7 },
+        { "stage": "Normal 4-1-S3", "mobs": 7 },
+        { "stage": "Normal 4-1-S5", "mobs": 7 },
+        { "stage": "Normal 4-1-S6", "mobs": 7 },
+        { "stage": "Normal 4-2-S8", "mobs": 7 },
+        { "stage": "Normal 4-2-S9", "mobs": 7 },
+        { "stage": "Normal 4-2-S10", "mobs": 7 },
+        { "stage": "Normal 4-2-S12", "mobs": 7 },
+        { "stage": "Normal 5-4", "mobs": 7 },
+        { "stage": "Normal 5-5", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 5-6", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 5-S5", "mobs": 7 },
+        { "stage": "Normal 5-S6", "mobs": 7 },
+        { "stage": "Normal 5S-3", "mobs": 7 },
+        { "stage": "Normal 6-S5", "mobs": 7 },
+        { "stage": "Normal 7-S2", "mobs": 7 },
+        { "stage": "Normal 7-S3", "mobs": 7 },
+        { "stage": "Normal 7-S4", "mobs": 7 },
+        { "stage": "Normal 7-S5", "mobs": 7 },
+        { "stage": "Normal 10-6", "mobs": 7 }
       ]
     },
     "blazing-soul": {
       "name": "Blazing Soul",
-      "locations": [{ "stage": "World 4-9", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 4-2-9", "mobs": 0 }
+      ]
     },
     "blessing-of-orbis": {
       "name": "Blessing Of Orbis",
       "locations": [
-        { "stage": "World 3S-S1", "mobs": 11 },
-        { "stage": "Normal 1-7", "mobs": 9 },
-        { "stage": "World 1-7", "mobs": 9 }
+        { "stage": "Normal 1-6", "mobs": 11 },
+        { "stage": "Normal 1-7", "mobs": 11, "bestFarm": true },
+        { "stage": "Normal 1-S1", "mobs": 11 },
+        { "stage": "Normal 1-S2", "mobs": 10 },
+        { "stage": "Normal 1-S5", "mobs": 7 },
+        { "stage": "Normal 1-S6", "mobs": 10 },
+        { "stage": "Normal 2-1", "mobs": 7 },
+        { "stage": "Normal 2-S2", "mobs": 7 },
+        { "stage": "Normal 2-S3", "mobs": 7 },
+        { "stage": "Normal 2-S4", "mobs": 7 },
+        { "stage": "Normal 2-S5", "mobs": 7 },
+        { "stage": "Normal 2-S6", "mobs": 7 },
+        { "stage": "Normal 2S-S1", "mobs": 7 },
+        { "stage": "Normal 2S-S2", "mobs": 7 },
+        { "stage": "Normal 2S-S3", "mobs": 7 },
+        { "stage": "Normal 2S-S4", "mobs": 7 },
+        { "stage": "Normal 2S-S6", "mobs": 7},
+        { "stage": "Normal 3S-S1", "mobs": 7},
+        { "stage": "Normal 4-1-5", "mobs": 7 },
+        { "stage": "Normal 4-1-S1", "mobs": 7 },
+        { "stage": "Normal 4-1-S2", "mobs": 7 },
+        { "stage": "Normal 4-1-S4", "mobs": 7 },
+        { "stage": "Normal 4-2-6", "mobs": 7 },
+        { "stage": "Normal 4-2-10", "mobs": 7 },
+        { "stage": "Normal 4-2-S9", "mobs": 7 },
+        { "stage": "Normal 5-S1", "mobs": 7 },
+        { "stage": "Normal 5-S2", "mobs": 7 },
+        { "stage": "Normal 5-S5", "mobs": 7 },
+        { "stage": "Normal 5S-4", "mobs": 7 },
+        { "stage": "Normal 6-8", "mobs": 7 },
+        { "stage": "Normal 6-S2", "mobs": 7 },
+        { "stage": "Normal 6-S4", "mobs": 7 },
+        { "stage": "Normal 7-1", "mobs": 7 },
+        { "stage": "Normal 7-2", "mobs": 7 },
+        { "stage": "Normal 7-3", "mobs": 7 },
+        { "stage": "Normal 7-S1", "mobs": 7 },
+        { "stage": "Normal 7-S2", "mobs": 7 },
+        { "stage": "Normal 7-S3", "mobs": 7 },
+        { "stage": "Normal 8S-1", "mobs": 7 },
+        { "stage": "Normal 8S-2", "mobs": 7 },
+        { "stage": "Normal 8S-4", "mobs": 7 },
+        { "stage": "Normal 8S-5", "mobs": 7 }
       ]
     },
     "blood-flaked-bone": {
       "name": "Blood Flaked Bone",
       "locations": [
-        { "stage": "Normal 1-9", "mobs": 7 },
-        { "stage": "Normal 1-10", "mobs": 7 },
-        { "stage": "World 1-9", "mobs": 7 },
-        { "stage": "World 3-5", "mobs": 7 },
-        { "stage": "World 9-S4", "mobs": 7 }
+        { "stage": "Normal 1-9", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 1-10", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 3-5", "mobs": 7 },
+        { "stage": "Normal 3-7", "mobs": 7 },
+        { "stage": "Normal 8-7", "mobs": 7 },
+        { "stage": "Normal 8-9", "mobs": 7 },
+        { "stage": "Normal 8-10", "mobs": 7 },
+        { "stage": "Normal 8S-6", "mobs": 7 },
+        { "stage": "Normal 8S-7", "mobs": 7 },
+        { "stage": "Normal 9-2-S4", "mobs": 7 },
+        { "stage": "Normal 10-S2", "mobs": 7 },
+        { "stage": "Normal 10-S3", "mobs": 7 }
       ]
     },
     "cold-look": {
       "name": "Cold Look",
       "locations": [
+        { "stage": "Normal 3S-Crack", "mobs": 6 },
+        { "stage": "Normal 5s-Crack", "mobs": 6 },
+        { "stage": "Normal 6-S6", "mobs": 6 },
+        { "stage": "Normal 8-4", "mobs": 6 },
+        { "stage": "Normal 8-5", "mobs": 6 },
         { "stage": "Normal 8-6", "mobs": 6 },
-        { "stage": "World 8-6", "mobs": 6 }
+        { "stage": "Normal 8-7", "mobs": 6 },
+        { "stage": "Normal 8-8", "mobs": 6 },
+        { "stage": "Normal 8-9", "mobs": 6 },
+        { "stage": "Normal 8-10", "mobs": 6 },
+        { "stage": "Normal 8-S2", "mobs": 6 },
+        { "stage": "Normal 8-S3", "mobs": 6 },
+        { "stage": "Normal 8S-Crack", "mobs": 6 }
       ]
     },
     "cursed-ashes": {
       "name": "Cursed Ashes",
       "locations": [
-        { "stage": "Normal 3-5", "mobs": 10 },
-        { "stage": "World 10-S2", "mobs": 5 },
-        { "stage": "World 10-S3", "mobs": 5 },
-        { "stage": "World 8-7", "mobs": 4 },
-        { "stage": "World 8-8", "mobs": 4 },
-        { "stage": "World 8-10", "mobs": 4 }
+        { "stage": "Normal 1-9", "mobs": 10 },
+        { "stage": "Normal 1-10", "mobs": 10 },
+        { "stage": "Normal 3-5", "mobs": 10, "bestFarm": true },
+        { "stage": "Normal 3-7", "mobs": 10 },
+        { "stage": "Normal 3S-3", "mobs": 10 },
+        { "stage": "Normal 8-7", "mobs": 10 },
+        { "stage": "Normal 8-8", "mobs": 10 },
+        { "stage": "Normal 8-10", "mobs": 10 },
+        { "stage": "Normal 8S-6", "mobs": 10 },
+        { "stage": "Normal 8S-7", "mobs": 10 },
+        { "stage": "Normal 9-2-S4", "mobs": 10 },
+        { "stage": "Normal 10-S2", "mobs": 10 },
+        { "stage": "Normal 10-S3", "mobs": 10 }
       ]
     },
     "demon-blood-gem": {
       "name": "Demon Blood Gem",
-      "locations": [{ "stage": "World 5-6", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 1-10", "mobs": 0 },
+        { "stage": "World 2-10", "mobs": 0 },
+        { "stage": "World 5-6", "mobs": 0 },
+        { "stage": "World 6-10", "mobs": 0 },
+        { "stage": "World 10-10", "mobs": 0 }
+      ]
     },
     "dragons-wrath": {
       "name": "Dragon's Wrath",
@@ -89,73 +206,191 @@
     "dream-time-circuit": {
       "name": "Dream Time Circuit",
       "locations": [
-        { "stage": "Normal 6-9", "mobs": 11 },
-        { "stage": "World 6-9", "mobs": 11 },
-        { "stage": "World 7-5", "mobs": 11 },
-        { "stage": "World 5S-7", "mobs": 9 },
-        { "stage": "World 2-10", "mobs": 6 }
+        { "stage": "Normal 2-9", "mobs": 1 },
+        { "stage": "Normal 2-10", "mobs": 1 },
+        { "stage": "Normal 3S-3", "mobs": 1 },
+        { "stage": "Normal 3S-6", "mobs": 1 },
+        { "stage": "Normal 4-2-S9", "mobs": 1 },
+        { "stage": "Normal 5S-7", "mobs": 1 },
+        { "stage": "Normal 5S-8", "mobs": 1 },
+        { "stage": "Normal 6-9", "mobs": 1, "bestFarm": true },
+        { "stage": "Normal 7-4", "mobs": 1 },
+        { "stage": "Normal 7-5", "mobs": 1 },
+        { "stage": "Normal 8S-S1", "mobs": 1 },
+        { "stage": "Normal 8S-S2", "mobs": 1 },
+        { "stage": "Normal 8S-S3", "mobs": 1 },
+        { "stage": "Normal 8S-S4", "mobs": 1 }        
       ]
     },
     "erikion-carapace": {
       "name": "Erikion Carapace",
       "locations": [
-        { "stage": "World 3-4", "mobs": 11 },
-        { "stage": "World 5-1", "mobs": 11 },
-        { "stage": "Normal 3-S4", "mobs": 1 }
+        { "stage": "Normal 3-2", "mobs": 1 },
+        { "stage": "Normal 3-8", "mobs": 1 },
+        { "stage": "Normal 3-S2", "mobs": 1 },
+        { "stage": "Normal 3-S4", "mobs": 1, "bestFarm": true },
+        { "stage": "Normal 3S-1", "mobs": 1 },
+        { "stage": "Normal 3S-3", "mobs": 1 },
+        { "stage": "Normal 3S-5", "mobs": 1 },
+        { "stage": "Normal 3S-6", "mobs": 1 },
+        { "stage": "Normal 5-1", "mobs": 1 },
+        { "stage": "Normal 5-2", "mobs": 1 },
+        { "stage": "Normal 5-6", "mobs": 1 },
+        { "stage": "Normal 5S-1", "mobs": 1 },
+        { "stage": "Normal 5S-6", "mobs": 1 },
+        { "stage": "Normal 8-1", "mobs": 1 },
+        { "stage": "Normal 8-2", "mobs": 1 },
+        { "stage": "Normal 8-3", "mobs": 1 },
+        { "stage": "Normal 8-S1", "mobs": 1 }
       ]
     },
     "eternal-forest-dust": {
       "name": "Eternal Forest Dust",
       "locations": [
-        { "stage": "Normal 5-3", "mobs": 6 },
-        { "stage": "Normal 5-9", "mobs": 6 },
-        { "stage": "Normal 5-10", "mobs": 6 },
-        { "stage": "World 5-3", "mobs": 6 },
-        { "stage": "World 5-8", "mobs": 6 },
-        { "stage": "World 5-9", "mobs": 6 },
-        { "stage": "World 5-10", "mobs": 6 },
-        { "stage": "World 4-S2", "mobs": 5 }
+        { "stage": "Normal 1-3", "mobs": 1 },
+        { "stage": "Normal 1-4", "mobs": 1 },
+        { "stage": "Normal 1-S2", "mobs": 1 },
+        { "stage": "Normal 2-S3", "mobs": 1 },
+        { "stage": "Normal 2-S5", "mobs": 1 },
+        { "stage": "Normal 2-S6", "mobs": 1 },
+        { "stage": "Normal 2S-S1", "mobs": 1 },
+        { "stage": "Normal 3S-S2", "mobs": 1 },
+        { "stage": "Normal 4-1-S2", "mobs": 1, "bestFarm": true },
+        { "stage": "Normal 4-2-6", "mobs": 1 },
+        { "stage": "Normal 5-2", "mobs": 1 },
+        { "stage": "Normal 5-3", "mobs": 1 },
+        { "stage": "Normal 5-7", "mobs": 1 },
+        { "stage": "Normal 5-8", "mobs": 1 },
+        { "stage": "Normal 5-9", "mobs": 1 },
+        { "stage": "Normal 5-10", "mobs": 1 },
+        { "stage": "Normal 5-S4", "mobs": 1 },
+        { "stage": "Normal 5-S5", "mobs": 1 },
+        { "stage": "Normal 5S-4", "mobs": 1 },
+        { "stage": "Normal 6-8", "mobs": 1 },
+        { "stage": "Normal 7-1", "mobs": 1 },
+        { "stage": "Normal 7-2", "mobs": 1 },
+        { "stage": "Normal 7-3", "mobs": 1 },
+        { "stage": "Normal 7-S1", "mobs": 1 },
+        { "stage": "Normal 7-S3", "mobs": 1 },
+        { "stage": "Normal 8-1", "mobs": 1 },
+        { "stage": "Normal 8-2", "mobs": 1 },
+        { "stage": "Normal 8-3", "mobs": 1 },
+        { "stage": "Normal 8-S1", "mobs": 1 },
+        { "stage": "Normal 8S-1", "mobs": 1 },
+        { "stage": "Normal 8S-2", "mobs": 1 },
+        { "stage": "Normal 8S-3", "mobs": 1 },
+        { "stage": "Normal 8S-4", "mobs": 1 },
+        { "stage": "Normal 8S-5", "mobs": 1 },
+        { "stage": "Normal 8S-6", "mobs": 1 }
       ]
     },
     "fighter-medal": {
       "name": "Fighter Medal",
-      "locations": [{ "stage": "World 10-8", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 1-S2", "mobs": 0 },
+        { "stage": "World 4-2-7", "mobs": 0 },
+        { "stage": "World 6-7", "mobs": 0 },
+        { "stage": "World 7-S2", "mobs": 0 },
+        { "stage": "World 9-1-2", "mobs": 0 },
+        { "stage": "World 9-2-10", "mobs": 0 },
+        { "stage": "World 10-7", "mobs": 0 },
+        { "stage": "World 10-8", "mobs": 0 },
+        { "stage": "World 10-S3", "mobs": 0 }
+      ]
     },
     "flame-of-soul": {
       "name": "Flame of Soul",
       "locations": [
-        { "stage": "World 9-9", "mobs": 11 },
-        { "stage": "Normal 9-7", "mobs": 10 },
-        { "stage": "World 4-S11", "mobs": 4 }
+        { "stage": "Normal 4-2-S11", "mobs": 1 },
+        { "stage": "Normal 7-6", "mobs": 1 },
+        { "stage": "Normal 7-8", "mobs": 1 },
+        { "stage": "Normal 7-9", "mobs": 1 },
+        { "stage": "Normal 9-1-3", "mobs": 1 },
+        { "stage": "Normal 9-1-S2", "mobs": 1 },
+        { "stage": "Normal 9-1-S3", "mobs": 1 },
+        { "stage": "Normal 9-2-6", "mobs": 1 },
+        { "stage": "Normal 9-2-7", "mobs": 1, "bestFarm": true },
+        { "stage": "Normal 9-2-8", "mobs": 1 },
+        { "stage": "Normal 9-2-9", "mobs": 1 },
+        { "stage": "Normal 9-2-S5", "mobs": 1 },
+        { "stage": "Normal 9-2-S6", "mobs": 1 },
+        { "stage": "Normal 10-4", "mobs": 1 },
+        { "stage": "Normal 10-5", "mobs": 1 },
+        { "stage": "Normal 10-10", "mobs": 1 },
+        { "stage": "Normal 10-S1", "mobs": 1 }
       ]
     },
     "fused-nerve": {
       "name": "Fused Nerve",
-      "locations": [{ "stage": "World 9-8", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 9-2-8", "mobs": 0 },
+        { "stage": "World 9-2-S6", "mobs": 0 }
+      ]
     },
     "horn-of-desire": {
       "name": "Horn of Desire",
-      "locations": [{ "stage": "World 8-S3", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 3S-Crack", "mobs": 0 },
+        { "stage": "World 5S-Crack", "mobs": 0 },
+        { "stage": "World 8S-Crack", "mobs": 0 },
+        { "stage": "World 8-S3", "mobs": 0 },
+        { "stage": "World 8-5", "mobs": 0 },
+        { "stage": "World 8-7", "mobs": 0 }
+      ]
     },
     "leather-sheath": {
       "name": "Leather Sheath",
       "locations": [
-        { "stage": "Normal 4-9", "mobs": 10 },
-        { "stage": "World 4-8", "mobs": 4 },
-        { "stage": "World 7-9", "mobs": 4 },
-        { "stage": "World 7-10", "mobs": 4 }
+        { "stage": "Normal 4-2-7", "mobs": 10 },
+        { "stage": "Normal 4-2-8", "mobs": 10 },
+        { "stage": "Normal 4-2-9", "mobs": 10 },
+        { "stage": "Normal 4-9", "mobs": 10, "bestFarm": true },
+        { "stage": "Normal 6-S3", "mobs": 10 },
+        { "stage": "Normal 7-6", "mobs": 10 },
+        { "stage": "Normal 7-8", "mobs": 10 },
+        { "stage": "Normal 7-9", "mobs": 10 },
+        { "stage": "Normal 7-10", "mobs": 10 }
       ]
     },
     "mercenarys-medicine": {
       "name": "Mercenary's Medicine",
-      "locations": [{ "stage": "World 3-S2", "mobs": 0 }]
+      "locations": [
+        { "stage": "World 2S-S3", "mobs": 0 },
+        { "stage": "World 2S-S5", "mobs": 0 },
+        { "stage": "World 3-S2", "mobs": 0 },
+        { "stage": "World 3S-4", "mobs": 0 },
+        { "stage": "World 3S-S2", "mobs": 0 },
+        { "stage": "World 3S-5", "mobs": 0 },
+        { "stage": "World 4-1-S3", "mobs": 0 },
+        { "stage": "World 4-1-4", "mobs": 0 },
+        { "stage": "World 5-S6", "mobs": 0 },
+        { "stage": "World 6-4", "mobs": 0 },
+        { "stage": "World 7-S1", "mobs": 0 },
+        { "stage": "World 8S-S3", "mobs": 0 }
+      ]
     },
     "mysterious-flash": {
       "name": "Mysterious Flash",
       "locations": [
-        { "stage": "Normal 2-1", "mobs": 7 },
-        { "stage": "World 2-1", "mobs": 7 },
-        { "stage": "World 9-6", "mobs": 7 }
+        { "stage": "Normal 2-1", "mobs": 10, "bestFarm": true},
+        { "stage": "Normal 2-S1", "mobs": 10 },
+        { "stage": "Normal 2-S2", "mobs": 10 },
+        { "stage": "Normal 2-S3", "mobs": 10 },
+        { "stage": "Normal 4-2-S11", "mobs": 10 },
+        { "stage": "Normal 4-2-S12", "mobs": 10 },
+        { "stage": "Normal 5-S2", "mobs": 10 },
+        { "stage": "Normal 5-S3", "mobs": 10 },
+        { "stage": "Normal 5S-6", "mobs": 10 },
+        { "stage": "Normal 5S-7", "mobs": 10 },
+        { "stage": "Normal 5S-8", "mobs": 10 },
+        { "stage": "Normal 6-2", "mobs": 10 },
+        { "stage": "Normal 6-5", "mobs": 10 },
+        { "stage": "Normal 6-6", "mobs": 10 },
+        { "stage": "Normal 6-7", "mobs": 10 },
+        { "stage": "Normal 6-10", "mobs": 10 },
+        { "stage": "Normal 6-S5", "mobs": 10 },
+        { "stage": "Normal 6-S6", "mobs": 10 },
+        { "stage": "Normal 9-2-6", "mobs": 10 }
       ]
     },
     "nightmare-mask": {
@@ -168,103 +403,276 @@
     "order-of-the-shield-insignia": {
       "name": "Order Of The Shield Insignia",
       "locations": [
-        { "stage": "Normal 6-5", "mobs": 10 },
-        { "stage": "World 6-2", "mobs": 6 },
-        { "stage": "World 6-6", "mobs": 6 }
+        { "stage": "Normal 6-2", "mobs": 10 },
+        { "stage": "Normal 6-3", "mobs": 10 },
+        { "stage": "Normal 6-4", "mobs": 10 },
+        { "stage": "Normal 6-5", "mobs": 10, "bestFarm": true },
+        { "stage": "Normal 6-6", "mobs": 10 },
+        { "stage": "Normal 6-7", "mobs": 10 },
+        { "stage": "Normal 6-10", "mobs": 10 }
       ]
     },
     "path-power-loop": {
       "name": "Path Power Loop",
       "locations": [
+        { "stage": "Normal 2-3", "mobs": 10 },
+        { "stage": "Normal 2-4", "mobs": 10 },
+        { "stage": "Normal 2-5", "mobs": 10 },
+        { "stage": "Normal 2-6", "mobs": 10 },
+        { "stage": "Normal 2-7", "mobs": 10, "bestFarm": true },
+        { "stage": "Normal 2-8", "mobs": 10 },
         { "stage": "Normal 2-9", "mobs": 10 },
-        { "stage": "World 2-7", "mobs": 7 },
-        { "stage": "World 2-8", "mobs": 7 },
-        { "stage": "World 9-S6", "mobs": 5 }
+        { "stage": "Normal 2-S1", "mobs": 10 },
+        { "stage": "Normal 6-10", "mobs": 10 },
+        { "stage": "Normal 9-2-S5", "mobs": 10 },
+        { "stage": "Normal 9-2-S6", "mobs": 10 },
+        { "stage": "Normal 10-1", "mobs": 10 },
+        { "stage": "Normal 10-8", "mobs": 10 },
+        { "stage": "Normal 10-9", "mobs": 10 }
       ]
     },
     "reingar-student-id": {
       "name": "Reingar Student ID",
       "locations": [
         { "stage": "World 2-2", "mobs": 0 },
-        { "stage": "World 2-9", "mobs": 0 }
+        { "stage": "World 2-3", "mobs": 0 },
+        { "stage": "World 2-6", "mobs": 0 },
+        { "stage": "World 2-9", "mobs": 0 },
+        { "stage": "World 5S-5", "mobs": 0 }
       ]
     },
     "ring-of-glory": {
       "name": "Ring of Glory",
       "locations": [
+        { "stage": "Normal 3S-3", "mobs": 38 },
+        { "stage": "Normal 9-1-1", "mobs": 38 },
+        { "stage": "Normal 9-1-2", "mobs": 38, "bestFarm": true },
+        { "stage": "Normal 9-1-3", "mobs": 38 },
+        { "stage": "Normal 9-1-4", "mobs": 38 },
+        { "stage": "Normal 9-1-5", "mobs": 38 },
+        { "stage": "Normal 9-2-10", "mobs": 38 },
+        { "stage": "Normal 10-1", "mobs": 38 },
+        { "stage": "Normal 10-2", "mobs": 38 },
         { "stage": "Normal 10-3", "mobs": 38 },
-        { "stage": "World 9-1", "mobs": 11 }
+        { "stage": "Normal 10-4", "mobs": 38 },
+        { "stage": "Normal 10-5", "mobs": 38 },
+        { "stage": "Normal 10-7", "mobs": 38 },
+        { "stage": "Normal 10-8", "mobs": 38 },
+        { "stage": "Normal 10-9", "mobs": 38 },
+        { "stage": "Normal 10-S1", "mobs": 38 }
       ]
     },
     "sharp-spearhead": {
       "name": "Sharp Spearhead",
       "locations": [
-        { "stage": "Normal 4-9", "mobs": 10 },
-        { "stage": "World 1-S3", "mobs": 7 },
-        { "stage": "World 7-7", "mobs": 6 }
+        { "stage": "Normal 1-S2", "mobs": 38 },
+        { "stage": "Normal 1-S3", "mobs": 38 },
+        { "stage": "Normal 3S-3", "mobs": 38 },
+        { "stage": "Normal 3S-4", "mobs": 38 },
+        { "stage": "Normal 3S-5", "mobs": 38 },
+        { "stage": "Normal 4-1-S6", "mobs": 38 },
+        { "stage": "Normal 4-2-7", "mobs": 38 },
+        { "stage": "Normal 4-2-8", "mobs": 38 },
+        { "stage": "Normal 4-2-9", "mobs": 38, "bestFarm": true },
+        { "stage": "Normal 7-6", "mobs": 38 },
+        { "stage": "Normal 7-7", "mobs": 38 },
+        { "stage": "Normal 7-8", "mobs": 38 },
+        { "stage": "Normal 7-10", "mobs": 38 },
+        { "stage": "Normal 8S-1", "mobs": 38 }
       ]
     },
     "shiny-enchantment": {
       "name": "Shiny Enchantment",
       "locations": [
-        { "stage": "Normal 5-4", "mobs": 8 },
-        { "stage": "World 5-4", "mobs": 8 },
-        { "stage": "World 1-8", "mobs": 7 }
+        { "stage": "Normal 1-8", "mobs": 8 },
+        { "stage": "Normal 1-S4", "mobs": 8 },
+        { "stage": "Normal 2S-S5", "mobs": 8 },
+        { "stage": "Normal 4-1-S5", "mobs": 8 },
+        { "stage": "Normal 4-1-S6", "mobs": 8 },
+        { "stage": "Normal 5-3", "mobs": 8 },
+        { "stage": "Normal 5-4", "mobs": 8, "bestFarm": true },
+        { "stage": "Normal 5-9", "mobs": 8 },
+        { "stage": "Normal 5-10", "mobs": 8 },
+        { "stage": "Normal 5-S1", "mobs": 8 },
+        { "stage": "Normal 5-S3", "mobs": 8 },
+        { "stage": "Normal 5-S4", "mobs": 8 },
+        { "stage": "Normal 5-S6", "mobs": 8 },
+        { "stage": "Normal 6-S2", "mobs": 8 },
+        { "stage": "Normal 7-S6", "mobs": 8 }
       ]
     },
     "slime-jelly": {
       "name": "Slime Jelly",
       "locations": [
-        { "stage": "World 9-S1", "mobs": 11 },
-        { "stage": "World 3-1", "mobs": 10 },
-        { "stage": "Normal 4-1", "mobs": 7 }
+        { "stage": "Normal 1-1", "mobs": 11 },
+        { "stage": "Normal 1-2", "mobs": 11 },
+        { "stage": "Normal 1-3", "mobs": 11 },
+        { "stage": "Normal 1-6", "mobs": 10 },
+        { "stage": "Normal 1-8", "mobs": 7 },
+        { "stage": "Normal 1-S1", "mobs": 10 },
+        { "stage": "Normal 1-S4", "mobs": 7 },
+        { "stage": "Normal 1-S5", "mobs": 7 },
+        { "stage": "Normal 1-S6", "mobs": 7 },
+        { "stage": "Normal 2-S4", "mobs": 7 },
+        { "stage": "Normal 2-S5", "mobs": 7 },
+        { "stage": "Normal 2-S6", "mobs": 7 },
+        { "stage": "Normal 2S-S1", "mobs": 7 },
+        { "stage": "Normal 2S-S4", "mobs": 7 },
+        { "stage": "Normal 2S-S6", "mobs": 7 },
+        { "stage": "Normal 3-S1", "mobs": 7 },
+        { "stage": "Normal 3-6", "mobs": 7 },
+        { "stage": "Normal 3S-S2", "mobs": 7 },
+        { "stage": "Normal 4-1", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 4-1-1", "mobs": 7 },
+        { "stage": "Normal 4-1-2", "mobs": 7 },
+        { "stage": "Normal 4-1-S1", "mobs": 7 },
+        { "stage": "Normal 4-1-S4", "mobs": 7 },
+        { "stage": "Normal 4-2-S8", "mobs": 7 },
+        { "stage": "Normal 5-S1", "mobs": 7 },
+        { "stage": "Normal 5-S3", "mobs": 7 },
+        { "stage": "Normal 6-S1", "mobs": 7 },
+        { "stage": "Normal 6-S3", "mobs": 7 },
+        { "stage": "Normal 6-S4", "mobs": 7 },
+        { "stage": "Normal 7-1", "mobs": 7 },
+        { "stage": "Normal 7-2", "mobs": 7 },
+        { "stage": "Normal 7-3", "mobs": 7 },
+        { "stage": "Normal 7-S1", "mobs": 7 },
+        { "stage": "Normal 7-S2", "mobs": 7 },
+        { "stage": "Normal 8S-1", "mobs": 7 },
+        { "stage": "Normal 8S-2", "mobs": 7 },
+        { "stage": "Normal 8S-4", "mobs": 7 },
+        { "stage": "Normal 8S-5", "mobs": 7 },
+        { "stage": "Normal 9-1-S1", "mobs": 7 },
+        { "stage": "Normal 9-1-S2", "mobs": 7 },
+        { "stage": "Normal 9-1-S3", "mobs": 7 }
       ]
     },
     "small-sun-badge": {
       "name": "Small Sun Badge",
       "locations": [
-        { "stage": "Normal 4-9", "mobs": 10 },
-        { "stage": "World 4-8", "mobs": 4 },
-        { "stage": "World 9-5", "mobs": 4 },
-        { "stage": "World 9-10", "mobs": 4 },
-        { "stage": "World 10-7", "mobs": 4 }
+        { "stage": "Normal 3-7", "mobs": 7 },
+        { "stage": "Normal 3S-3", "mobs": 7 },
+        { "stage": "Normal 4-2-8", "mobs": 7 },
+        { "stage": "Normal 4-2-9", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 3S-3", "mobs": 7 },
+        { "stage": "Normal 7-6", "mobs": 7 },
+        { "stage": "Normal 9-1-3", "mobs": 7 },
+        { "stage": "Normal 9-1-4", "mobs": 7 },
+        { "stage": "Normal 9-1-5", "mobs": 7 },
+        { "stage": "Normal 9-2-10", "mobs": 7 },
+        { "stage": "Normal 10-1", "mobs": 7 },
+        { "stage": "Normal 10-3", "mobs": 7 },
+        { "stage": "Normal 10-5", "mobs": 7 },
+        { "stage": "Normal 10-7", "mobs": 7 },
+        { "stage": "Normal 10-9", "mobs": 7 },
+        { "stage": "Normal 10-S1", "mobs": 7 }
       ]
     },
     "special-alarm-loop": {
       "name": "Special Alarm Loop",
       "locations": [
-        { "stage": "Normal 9-4", "mobs": 12 },
-        { "stage": "World 2-2", "mobs": 5 }
+        { "stage": "Normal 2-3", "mobs": 7 },
+        { "stage": "Normal 2-4", "mobs": 7 },
+        { "stage": "Normal 2-5", "mobs": 7 },
+        { "stage": "Normal 2-6", "mobs": 7 },
+        { "stage": "Normal 2-7", "mobs": 7 },
+        { "stage": "Normal 2-8", "mobs": 7 },
+        { "stage": "Normal 2-9", "mobs": 7 },
+        { "stage": "Normal 2-S1", "mobs": 7 },
+        { "stage": "Normal 6-2", "mobs": 7 },
+        { "stage": "Normal 6-3", "mobs": 7 },
+        { "stage": "Normal 6-4", "mobs": 7 },
+        { "stage": "Normal 6-5", "mobs": 7 },
+        { "stage": "Normal 6-6", "mobs": 7 },
+        { "stage": "Normal 9-1-4", "mobs": 7 },
+        { "stage": "Normal 9-2-S5", "mobs": 7 },
+        { "stage": "Normal 9-2-S6", "mobs": 7 },
+        { "stage": "Normal 10-8", "mobs": 7 },
+        { "stage": "Normal 10-9", "mobs": 7 }
       ]
     },
     "strange-jelly": {
       "name": "Strange Jelly",
       "locations": [
-        { "stage": "World 10-2", "mobs": 11 },
-        { "stage": "Normal 1-10", "mobs": 9 },
-        { "stage": "World 4-S11", "mobs": 6 }
+        { "stage": "Normal 1-10", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 2-S6", "mobs": 7 },
+        { "stage": "Normal 2S-S6", "mobs": 7 },
+        { "stage": "Normal 4-2-S11", "mobs": 7 },
+        { "stage": "Normal 4-2-S12", "mobs": 7 },
+        { "stage": "Normal 5-S2", "mobs": 7 },
+        { "stage": "Normal 5S-6", "mobs": 7 },
+        { "stage": "Normal 6-S6", "mobs": 7 },
+        { "stage": "Normal 7-9", "mobs": 7 },
+        { "stage": "Normal 8S-S1", "mobs": 7 },
+        { "stage": "Normal 8S-S2", "mobs": 7 },
+        { "stage": "Normal 8S-S3", "mobs": 7 },
+        { "stage": "Normal 8S-S4", "mobs": 7 },
+        { "stage": "Normal 8S-7", "mobs": 7 },
+        { "stage": "Normal 9-1-S3", "mobs": 7 },
+        { "stage": "Normal 9-2-7", "mobs": 7 },
+        { "stage": "Normal 9-2-8", "mobs": 7 },
+        { "stage": "Normal 9-2-S4", "mobs": 7 },
+        { "stage": "Normal 9-2-S5", "mobs": 7 },
+        { "stage": "Normal 10-1", "mobs": 7 },
+        { "stage": "Normal 10-2", "mobs": 7 },
+        { "stage": "Normal 10-10", "mobs": 7 },
+        { "stage": "Normal 10-S2", "mobs": 7 }
       ]
     },
     "the-heart-of-hypocrisy": {
       "name": "The Heart of Hypocrisy",
       "locations": [
-        { "stage": "World 9-10", "mobs": 0 },
+        { "stage": "World 9-2-10", "mobs": 0 },
         { "stage": "World 10-4", "mobs": 0 }
       ]
     },
     "twisted-fang": {
       "name": "Twisted Fang",
       "locations": [
-        { "stage": "Normal 8-S2", "mobs": 7 },
-        { "stage": "World 8-S2", "mobs": 7 }
+        { "stage": "Normal 5S-Crack", "mobs": 7 },
+        { "stage": "Normal 8-4", "mobs": 7 },
+        { "stage": "Normal 8-5", "mobs": 7 },
+        { "stage": "Normal 8-6", "mobs": 7 },
+        { "stage": "Normal 8-8", "mobs": 7 },
+        { "stage": "Normal 8-9", "mobs": 7 },
+        { "stage": "Normal 8-10", "mobs": 7 },
+        { "stage": "Normal 8-S2", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 8-S3", "mobs": 7 },
+        { "stage": "Normal 8S-Crack", "mobs": 7 }
       ]
     },
     "ultra-fang": {
       "name": "Ultra Fang",
       "locations": [
-        { "stage": "Normal 6-1", "mobs": 11 },
-        { "stage": "World 6-1", "mobs": 11 },
-        { "stage": "World 5-7", "mobs": 9 }
+        { "stage": "Normal 1-4", "mobs": 7, "bestFarm": true },
+        { "stage": "Normal 1-S1", "mobs": 7 },
+        { "stage": "Normal 1-S6", "mobs": 7 },
+        { "stage": "Normal 2-S2", "mobs": 7 },
+        { "stage": "Normal 2S-S2", "mobs": 7 },
+        { "stage": "Normal 2S-S3", "mobs": 7 },
+        { "stage": "Normal 3S-2", "mobs": 7 },
+        { "stage": "Normal 4-1-S3", "mobs": 7 },
+        { "stage": "Normal 4-1-S5", "mobs": 7 },
+        { "stage": "Normal 4-1-S6", "mobs": 7 },
+        { "stage": "Normal 4-2-S10", "mobs": 7 },
+        { "stage": "Normal 4-2-S12", "mobs": 7 },
+        { "stage": "Normal 5-7", "mobs": 7 },
+        { "stage": "Normal 5-8", "mobs": 7 },
+        { "stage": "Normal 5S-2", "mobs": 7 },
+        { "stage": "Normal 5S-4", "mobs": 7 },
+        { "stage": "Normal 5S-5", "mobs": 7 },
+        { "stage": "Normal 5S-6", "mobs": 7 },
+        { "stage": "Normal 6-1", "mobs": 7 },
+        { "stage": "Normal 6-5", "mobs": 7 },
+        { "stage": "Normal 6-8", "mobs": 7 },
+        { "stage": "Normal 6-S1", "mobs": 7 },
+        { "stage": "Normal 6-S2", "mobs": 7 },
+        { "stage": "Normal 6-S3", "mobs": 7 },
+        { "stage": "Normal 6-S5", "mobs": 7 },
+        { "stage": "Normal 7-S6", "mobs": 7 },
+        { "stage": "Normal 8S-3", "mobs": 7 },
+        { "stage": "Normal 8S-4", "mobs": 7 },
+        { "stage": "Normal 8S-5", "mobs": 7 }
       ]
     }
   }
