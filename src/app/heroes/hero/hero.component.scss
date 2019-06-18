@@ -23,11 +23,20 @@
     .skills-wrapper > p,
     .awakenings-wrapper > p,
     .catalyst-locations-wrapper > p {
-        margin: 10px 0;
+        margin: 13px 0;
     }
 
     .catalyst-names-wrapper {
         grid-area: catalysts;
+
+        .catalyst-icon-small {
+            height: 20px;
+            width: 20px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
     }
 
     .skills-wrapper {

@@ -1,7 +1,10 @@
 <div class="hero-data-wrapper" [ngClass]="{'hide': hideHeroData[index]}">
 	<div class="catalyst-names-wrapper">
 		<h5>Catalysts</h5>
-		<p *ngFor="let catalyst of catalysts">{{ catalyst.id | spaceSeparate | titlecase }}</p> 
+		<p *ngFor="let catalyst of catalysts">
+			<img class="catalyst-icon-small" src="../../../assets/images/catalyst-icons/{{catalyst.id}}.PNG" alt="catalyst.id + 'icon'"/>
+			{{ catalyst.id | spaceSeparate | titlecase }}
+		</p> 
 	</div>
 	<div class="skills-wrapper">
 		<h5>Skills</h5>

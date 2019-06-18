@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class AppComponent implements OnInit {
   title = 'epic7-catalyst-tool';
-  catalystView = false;
-  heroView = true;
+  catalystView = true;
+  heroView = false;
 
   constructor() {
     

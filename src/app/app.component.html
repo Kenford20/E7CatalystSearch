@@ -6,8 +6,8 @@
     <br/>
     <br/>
     <select (change)="changeHeroView($event)">
-        <option value="heroes">Heroes to Catalysts</option>
-        <option value="catalysts">Catalysts to Heroes</option>
+      <option value="catalysts">Catalysts to Heroes</option>
+      <option value="heroes">Heroes to Catalysts</option>
     </select>
     <app-heroes *ngIf="heroView"></app-heroes>
     <app-catalysts *ngIf="catalystView"></app-catalysts>
