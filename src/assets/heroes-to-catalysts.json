@@ -1859,6 +1859,62 @@
             ]
         }
     },
+    "Crescent Moon Rin": {
+        "blazing-rage": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "horn-of-desire": {
+            "Skills": [
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "shiny-enchantment": {
+            "Skills": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Crimson Armin": {
         "mysterious-flash": {
             "Skills": [
@@ -2420,6 +2476,36 @@
                 0,
                 0,
                 6,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "Fallen Cecilia": {
+        "cold-look": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "mercenarys-medicine": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
                 0,
                 0,
                 0,
