@@ -1,0 +1,51 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+         transform: rotate(360deg);
+    }
+}
+
+#spinner-background {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(100, 100, 100, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spinner {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    font-family: Diplomata;
+    color: transparent;
+    background: linear-gradient(0deg, rgb(44, 160, 199) 0%, rgb(152, 212, 223) 25%, white 50%, rgb(136, 219, 136) 75%, rgb(25, 156, 25) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &::before {
+        content: '';
+        animation: 1s ease-in-out infinite spin;
+        border: 12px solid lightblue;
+        box-sizing: border-box;
+        border-bottom-color: lightgreen;
+        border-left-color: lightgreen;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

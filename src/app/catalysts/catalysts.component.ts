@@ -1,5 +1,5 @@
 import { CatalystsService } from '../core/catalysts.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { IHero, ICatalysts, ILocations } from '../shared/interfaces';
 
 @Component({
@@ -9,6 +9,9 @@ import { IHero, ICatalysts, ILocations } from '../shared/interfaces';
 })
 
 export class CatalystsComponent implements OnInit {
+  @Input() loading;
+  @Input() doneLoading;
+
   hideCatalystData:boolean[] = [];
   catalysts:ICatalysts[] = [];
   filteredCatalysts:any[] = [];
@@ -19,6 +22,7 @@ export class CatalystsComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.loading();
     this.catalystsService.getCatalystLocations().subscribe(catalysts => {
       for(let catalyst in catalysts) {
         this.catalystsLocations.push({
@@ -65,6 +69,7 @@ export class CatalystsComponent implements OnInit {
       });
       console.log(this.catalysts);
       this.filteredCatalysts = [...this.catalysts].sort((a,b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0));
+      this.doneLoading();
     });
   }
 

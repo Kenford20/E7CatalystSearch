@@ -7,7 +7,6 @@
 body {
     font-family: Tahoma, sans-serif;
     font-size: 0.5rem;
-    padding: 20px;
 }
 
 span, p {
@@ -15,9 +14,6 @@ span, p {
 }
 
 @media only screen and (max-width: 750px) {
-    body {
-        padding: 10px;
-    }
     span, p {
         font-size: 10px;
     }

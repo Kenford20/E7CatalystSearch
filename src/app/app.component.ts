@@ -10,12 +10,24 @@ export class AppComponent implements OnInit {
   title = 'epic7-catalyst-tool';
   catalystView = true;
   heroView = false;
+  isLoading = false;
 
   constructor() {
     
   }
 
   ngOnInit() {
+  }
+
+  loading = () => {
+    console.log(this.isLoading);
+    this.isLoading = true;
+    console.log(this.isLoading);
+  }
+
+  doneLoading = () => {
+    console.log('done loading');
+    this.isLoading = false;
   }
 
   changeHeroView(e) {

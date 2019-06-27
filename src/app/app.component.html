@@ -1,16 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<app-spinner [style.display]="isLoading ? 'block' : 'none'"></app-spinner>
 <div id="app-component-wrapper">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
     <br/>
     <br/>
     <select (change)="changeHeroView($event)">
       <option value="catalysts">Catalysts to Heroes</option>
       <option value="heroes">Heroes to Catalysts</option>
     </select>
-    <app-heroes *ngIf="heroView"></app-heroes>
-    <app-catalysts *ngIf="catalystView"></app-catalysts>
+    <app-heroes *ngIf="heroView" [loading]="loading" [doneLoading]="doneLoading"></app-heroes>
+    <app-catalysts *ngIf="catalystView" [loading]="loading" [doneLoading]="doneLoading"></app-catalysts>
 </div>
 
 <router-outlet></router-outlet>

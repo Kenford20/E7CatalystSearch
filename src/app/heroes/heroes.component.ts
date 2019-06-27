@@ -1,5 +1,5 @@
 import { CatalystsService } from '../core/catalysts.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { IHeroes, ICatalyst, ILocations, ILocation } from '../shared/interfaces';
 
 @Component({
@@ -9,6 +9,9 @@ import { IHeroes, ICatalyst, ILocations, ILocation } from '../shared/interfaces'
 })
 
 export class HeroesComponent implements OnInit {
+  @Input() loading;
+  @Input() doneLoading;
+
   heroes:any[] = [];
   filteredHeroes:any[] = [];
   hideHeroData:boolean[] = [];
@@ -16,24 +19,9 @@ export class HeroesComponent implements OnInit {
 
   constructor(private catalystsService: CatalystsService) {
   }
-
+  
   ngOnInit() {
-    let foo = [
-      {
-        bar: 'foo-bar',
-        id: 100
-      },
-      {
-        bar: 'bar-foo',
-        id: 1
-      },
-      {
-        bar: 'ar-poo',
-        id: 10
-      }
-    ]
-    foo.sort((a,b) => (a.bar > b.bar) ? 1 : ((b.bar > a.bar) ? -1 : 0)); 
-    console.log(foo);
+    this.loading();
     this.catalystsService.getCatalystLocations().subscribe(catalysts => {
       for(let catalyst in catalysts) {
         this.catalystsLocations.push({
@@ -76,7 +64,8 @@ export class HeroesComponent implements OnInit {
       });
       console.log(this.heroes)
       this.filteredHeroes = [...this.heroes];
-      console.log(this.filteredHeroes)
+      console.log(this.filteredHeroes);
+      this.doneLoading();
     });
   }
 

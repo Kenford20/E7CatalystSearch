@@ -8,10 +8,12 @@ import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { SharedModule } from './shared/shared.module';
 import { CatalystsModule } from './catalysts/catalysts.module';
+import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,
