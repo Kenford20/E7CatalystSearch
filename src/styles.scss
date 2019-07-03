@@ -8,6 +8,18 @@ body {
     font-family: Tahoma, sans-serif;
     font-size: 0.5rem;
 }
+body::after {
+    content: "";
+    background: center no-repeat fixed url("./assets/images/background.jpg");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.35;
+}
 
 span, p {
     font-size: 12px;

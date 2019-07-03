@@ -3782,6 +3782,62 @@
             ]
         }
     },
+    "Lilibet": {
+        "dream-time-circuit": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "mysterious-flash": {
+            "Skills": [
+                0,
+                0,
+                5,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "reingar-student-id": {
+            "Skills": [
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Lorina": {
         "twisted-fang": {
             "Skills": [

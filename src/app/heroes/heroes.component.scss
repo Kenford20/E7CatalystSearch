@@ -7,6 +7,7 @@
         display: flex;
         justify-content: center;
         margin: 10px 0;
+        color: white;
 
         &:hover::after {
             width: 100%;
@@ -21,13 +22,13 @@
             left: 0;
             top: 0;
             z-index: -1;
-            background: rgb(225, 225, 225);
+            background: black;
         }
         &::before {
             width: 100%;
         }
         &::after {
-            background: rgb(150, 150, 150);
+            background: rgb(100, 100, 100);
             transition: width 0.3s;
         }
 
@@ -57,7 +58,7 @@
                 position: absolute;
                 height: 3px;
                 width: 12px;
-                background: black;
+                background: white;
                 top: 19px;
                 transition: all 0.2s;
             }

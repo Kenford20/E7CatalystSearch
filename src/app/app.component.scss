@@ -8,8 +8,9 @@
 select {
     cursor: pointer;
     padding: 5px;
-    border: 2px solid lightgreen;
+    border: 2px solid darkblue;
     border-radius: 10px;
+    width: 240px;
 }
 
 @media only screen and (max-width: 750px) {
