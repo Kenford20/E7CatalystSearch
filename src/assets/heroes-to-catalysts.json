@@ -243,6 +243,62 @@
             ]
         }
     },
+    "Apocalypse Ravi": {
+        "baby-mouse-insignia": {
+            "Skills": [
+                11,
+                8,
+                11,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "the-heart-of-hypocrisy": {
+            "Skills": [
+                2,
+                3,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "special-alarm-loop": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Aramintha": {
         "ring-of-glory": {
             "Skills": [
