@@ -835,6 +835,62 @@
             ]
         }
     },
+    "Baiken": {
+        "black-curse-powder": {
+            "Skills": [
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "erikion-carapace": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "sharp-spearhead": {
+            "Skills": [
+                12,
+                12,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Basar": {
         "leather-sheath": {
             "Skills": [
@@ -2299,6 +2355,62 @@
                 0,
                 0,
                 12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "Dizzy": {
+        "blazing-rage": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "horn-of-desire": {
+            "Skills": [
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "shiny-enchantment": {
+            "Skills": [
+                12,
+                12,
+                12,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -5805,7 +5917,7 @@
             ]
         }
     },
-    "Sol Badguy"": {
+    "Sol Badguy": {
         "cold-look": {
             "Awakening": [
                 0,
