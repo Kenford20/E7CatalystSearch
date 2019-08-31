@@ -3426,6 +3426,22 @@
             ]
         }
     },
+    "Kawerik": {
+        "path-power-loop": {
+            "Skills": [
+                8,
+                8,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Kayron": {
         "path-power-loop": {
             "Skills": [
@@ -3530,6 +3546,62 @@
                 0,
                 0,
                 15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "Khawazu": {
+        "black-curse-powder": {
+            "Skills": [
+                2,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "erikion-carapace": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "sharp-spearhead": {
+            "Skills": [
+                8,
+                8,
+                8,
+                0,
+                0,
                 0,
                 0,
                 0,
