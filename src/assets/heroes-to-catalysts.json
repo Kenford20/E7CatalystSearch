@@ -2793,6 +2793,62 @@
             ]
         }
     },
+    "Furious": {
+        "blazing-soul": {
+            "Skills": [
+                2,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "twisted-fang": {
+            "Skills": [
+                8,
+                8,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "ultra-fang": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "General Purrgis": {
         "baby-mouse-insignia": {
             "Skills": [
