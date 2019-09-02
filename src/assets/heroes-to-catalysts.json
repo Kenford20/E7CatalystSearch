@@ -1047,6 +1047,62 @@
             ]
         }
     },
+    "Blaze Dingo": {
+        "archers-vision": {
+            "Skills": [
+                4,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "cold-look": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "mercenarys-medicine": {
+            "Skills": [
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Blood Blade Karin": {
         "sharp-spearhead": {
             "Skills": [
