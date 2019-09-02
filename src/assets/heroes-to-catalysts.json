@@ -1203,6 +1203,50 @@
             ]
         }
     },
+    "Captain Rikoris": {
+        "dream-time-circuit": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "mysterious-flash": {
+            "Skills": [
+                12,
+                12,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "reingar-student-id": {
+            "Awakening": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
     "Carmainerose": {
         "leather-sheath": {
             "Skills": [
